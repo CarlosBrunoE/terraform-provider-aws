@@ -1,11 +1,11 @@
 variable "aws_region" {
-  default     = "us-west-2"
+  default     = "us-east-1"
   description = "AWS Region to deploy example API Gateway REST API"
   type        = string
 }
 
 variable "rest_api_domain_name" {
-  default     = "example.com"
+  default     = "api.charlycloudy.com"
   description = "Domain name of the API Gateway REST API for self-signed TLS certificate"
   type        = string
 }
